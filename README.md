@@ -4,7 +4,7 @@ An Arabic Telegram group bot that combines religious reminders, group moderation
 
 Built in JavaScript for Cloudflare Workers, with Cloudflare D1 for group settings and stored content. Religious reminders are the main focus, supported by tools for managing the group's everyday activity.
 
-> Source-based portfolio documentation. The source passes a JavaScript module syntax check. The shared version replaces the original hardcoded owner identifier with the `OWNER_ID` environment setting; no other bot logic was changed. Deployment, integrations, and message delivery have not been independently tested.
+> Source-based portfolio documentation. The author has tested the bot and uses it actively. Separately, the source passes a JavaScript module syntax check. The shared version replaces the original hardcoded owner identifier with the `OWNER_ID` environment setting; no other bot logic was changed. Independent deployment, integration, and message-delivery testing was not part of this documentation.
 
 ## Religious reminders
 
@@ -89,4 +89,4 @@ Keep credentials and database exports out of a shared repository. Configure the 
 
 This repository presents the supplied JavaScript implementation. It does not include saved Quran or adhkar media, a populated knowledge base, a database export, a deployment configuration, or an automated test suite.
 
-The documentation describes implemented logic, not independently verified production operation. Religious content and prayer-time settings should be reviewed before use.
+The documentation describes implemented logic. The author reports that the bot works as described and is in active personal use; that operation was not independently verified as part of this documentation. Religious content and prayer-time settings should be reviewed before use.
